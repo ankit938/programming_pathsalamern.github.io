@@ -1,0 +1,18 @@
+/* .parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1f;
+    grid-template-rows: 50px 75px 50px;
+    background-color: aqua;
+}
+.child{
+    background-color: yellow;
+} */.grid-container {
+  display: grid;
+}
+.grid-container {
+    display: inline-grid;
+  }
+  .grid-container {
+    display: grid;
+    column-gap: 50px;
+  }

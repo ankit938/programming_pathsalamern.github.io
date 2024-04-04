@@ -1,0 +1,21 @@
+body{
+    background-color: blanchedalmond;
+    min-height: 00vh;
+    min-width: 100vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: yellow;
+    position: fixed/*absolute se niche karne par overlap bhi niche hoga magr 
+     fixed karne par overlap wala niche aayega hi nahi*/;/*content*/
+    font-size: 50px;
+}
+.main{
+    background-color: green;
+    font-size: 100px;
+    
+}

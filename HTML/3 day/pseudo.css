@@ -1,0 +1,48 @@
+/* .trans{
+    transition: 1s;
+    color: white;
+}
+body{
+    background-color: black;
+} */
+/* button{
+    position{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 18px 36px;
+        font-size: 24px;
+        border:none;
+        border-radius: 2px;
+        transition-property: scale;
+        transition-timing-function: ease-in-out;
+        transition-duration: 300ms;
+    }
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    scale: 2;
+    opacity: 0.8;
+} */
+button{
+position: absolute;
+animation-name:button-animation-type-1;
+animation-duration: 4s;
+animation-timing-function: linear;
+
+animation-iteration-count: infinite;
+animation-direction: alternate ;
+
+}
+@keyframes button-animation-type-1{
+    from{
+         top: 20px;
+         left: 40px;
+    }
+    to{
+        top: 20px;
+        left: 500px;
+
+    }
+}

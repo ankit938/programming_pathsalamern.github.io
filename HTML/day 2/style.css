@@ -1,0 +1,137 @@
+/*
+box banane ke liye 4 chije hote hai
+content 
+paddiing 
+margin
+border
+*/
+.parent{
+   margin: 50px 200px 16px; /*  yaha se aap box ko move kara sakte hai*/
+   padding: 16px;
+    background-color: yellow;
+    border: 1px;
+    width: 150px;
+}
+*{
+    padding :5;
+
+
+}
+.parent {
+    p{
+    background-color: rgb(102, 203, 55);
+    width: fill-content;
+    text-align: center;
+    margin: 0 0 0 0 auto;
+
+}
+span{
+    background-color: aqua;
+}
+}
+/*quest:  image ko horizontally  centrre me kaise laye 
+ans:  
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #p1{
+    background-color: burlywood;
+  }
+  .parents{
+    font-size: 32;  /* current size se 2 times agar nested ragega to parents ka multiple hoga */
+    text-align: center;
+    background-color: beige;
+  }
+  .child{
+    font-size: 2em;
+  }
+  .submit{
+    display: block;
+    padding: 16px;
+    border-radius: 19px;
+    border: none;
+    font-size: 16px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top:5px;
+    color: white;
+    /* width: 50%; */
+  }
+  .submit:hover{
+    /* background-color: blue; */
+    opacity: 0.5   ;
+  }
+  .submit-small{
+    font-size: 10px;
+  }
+  body{
+    height: 50vh;
+    width: 50vw;
+    background-color: aqua;
+  }
+  .childd{
+    width: 50%;
+    min-height: 200px;
+    padding: 20px;
+    overflow: scroll;
+
+    .maxside{
+      mask-size :12;
+    }
+
+  }
+  
+  .parentt{
+    ol{
+      background-color: white;
+      li:nth-child(3){
+        background-color: rgb(24, 8, 205);
+      }
+    }
+    ul:first-child{
+      background-color: orangered;
+    }
+    ul:last-child{ 
+      background-color: green;
+
+    /* li:nth-child(4){
+        background-color: darkgoldenrod;
+      } */
+      li:nth-of-type(2){
+        background-color: darkorchid;
+      }
+    } 
+  }
+  .parentts ul{
+    background-color: deeppink;
+  }
+
+  .FlexBox{
+    background-color: blue;
+    display: flex; /*  isse ak line me ho jatachai*/
+  }
+  .flex{
+    background-color: burlywood;
+    border: 1px solid red;
+    width: 10px;
+    flex-basis:  100px;
+    flex-shrink: 0;
+    flex-wrap:wrap ;   /* adjust nahi karenge blki next kine me chake jayenge */
+  }
+  .search-box{
+    flex-basis: 3;
+  }
+  .cart{
+     flex-grow: 1;
+  }

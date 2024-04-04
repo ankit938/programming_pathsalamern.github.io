@@ -1,0 +1,19 @@
+.parent{
+    background-color: aqua;
+    /* justify-content:flex-start ; */
+     display: flex;
+     height: 300px;
+     justify-content: space-evenly;
+     align-items: flex-end;
+     align-items: baseline;
+
+}
+.child{
+border: 1px solid red;
+background-color: yellow;
+width:100px
+}
+.logo{
+    align-self: flex-start;
+    padding: 40px 10px;
+}
