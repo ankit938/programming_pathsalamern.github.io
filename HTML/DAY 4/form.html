@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form create</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div style="background-color: aqua;">
+         <form  onsubmit="submitForm(event)">
+            <label>First Name</label>
+            <input type="text" name="first name" placeholder="first name " onkeydown="firstNameChange(event)"><br><br>
+            <label>last Name</label>
+            <input type="text" name="first name" placeholder="last name "><br><br>
+            <label>age</label>
+            <input type="number" name="age"><br><br>
+            <label> hobbies: </label><br><br>
+            <label>cricket</label>
+            <input type="checkbox" name="hobbies" value="webb">
+            <label>hockey</label>
+            <input type="checkbox" name="hobbies" value="sports">
+            <label>Football</label>
+            <input type="checkbox" name="hobbies" value="drawinfg"><br><br>
+            <button>sign in</button>
+         </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
